@@ -1,0 +1,193 @@
+/* common css start */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align:middle ;
+}
+h1,h2,h3,h4,h5,h6,p,div,span,ul,li,img{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary_background_color: #1c1e53;
+      --secendary_bckground_color: #f4f6fc;
+    --line_color: #2405f2;
+    --button_color:#fcd980;
+    --primary_text_color:#282938;
+    
+
+}
+/* common css end */
+/* navber css start  */
+.customNavber{
+    background-color: var(--primary_background_color);
+}
+.navbar_iteam{
+    color: var(--secendary_bckground_color);
+    column-gap: 40px;
+    margin-right: 30px;
+}
+.navbar_iteam:hover{
+color: var(--line_color);
+}
+.btn1{
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid var(--secendary_bckground_color);
+   
+    border-radius:41px ;
+    transition: all linear .6s;
+}
+.btn1:not(:hover){
+    opacity: 0.3;
+    color: white;
+}
+.btn1:hover{
+    color: var(--primary_background_color);
+    background-color: var(--secendary_bckground_color);
+}
+/* navber css end  */
+/* protfolio css start  */
+.tex_areas{
+    padding: 98px;
+    background-color: #F4F6FC;
+}
+.top_title{
+    color: var(--primary_text_color);
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+
+}
+.top_title1{
+    color: var(--primary_text_color);
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+
+
+}
+.details{
+    text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-top: 24px;
+}
+.icon{
+    text-align: center;
+    margin-left: 30px;
+}
+.icon i{
+    margin-left: 40px;
+    margin-top: 24px;
+    font-size: 30px;
+   cursor: pointer;
+    
+}
+.icon i:hover{
+    color: #1c1e53;
+}
+/* portfolio css end */
+
+
+/* display protfolio design css start */
+.display_portfolio{
+    padding: 98px;
+
+}
+.protfolio_title{
+    text-align: center;
+  
+
+}
+.Portfolio_cardstitle{
+    text-align: center;
+}
+.alllinks a{
+    margin-left: 25px;
+    color: var(--primary_text_color);
+    margin-bottom: 32px;
+}
+.alllinks a:hover{
+    color: var(--line_color);
+    font-weight: 500;
+ 
+}
+.Portfolio_cardstitle .protfolio_title .title_tags{
+    text-align: center;
+    display: flex;
+    
+
+}
+.button_animation{
+    margin-bottom: 20px;
+}
+.card_body_color{
+   background-color: none; 
+}
+/* display protfolio design css end */
+
+/* work protfolio css start */
+.Bottomtex_areas{
+    text-align: center;
+    padding: 128px;
+}
+.Footer_title{
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+.Fotter_details{
+    color: var(--Dark-blue, #282938);
+text-align: center;
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 40px;
+}
+.contact_us{
+    padding: 10px 25px;
+    background-color: var(--button_color);
+    border-radius: 25px;
+    color: var(--line_color);
+    font-weight: 500;
+}
+.contact_us:hover{
+    background-color: var(--line_color);
+    color: var(--secendary_bckground_color);
+}
+
+/* work protfolio css start */
