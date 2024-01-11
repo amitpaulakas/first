@@ -157,7 +157,7 @@ margin-top: 24px;
     text-align: center;
     padding: 128px;
 }
-.Footer_title{
+.work_title{
     color: var(--Dark-blue, #282938);
     text-align: center;
     font-family: Poppins;
@@ -167,7 +167,7 @@ margin-top: 24px;
     line-height: 64px;
     margin-bottom: 20px;
 }
-.Fotter_details{
+.work_details{
     color: var(--Dark-blue, #282938);
 text-align: center;
 /* Body 2 */
